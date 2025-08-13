@@ -1,0 +1,55 @@
+﻿<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Konimbo Landing Page</title>
+    <link rel="stylesheet" href="./styles.css?v=2">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero__overlay">
+            <div class="hero__content">
+
+                <h1 class="hero__title">בונים את ההצלחה שלכם באונליין</h1>
+                <p class="hero__subtitle">
+                    השאירו פרטים ונחזור אליכם עם הפתרון החכם להקמת חנות דיגיטלית 
+                </p>
+                <ul class="hero__bullets">
+                    <li>מהירה</li>
+                    <li>מקצועית</li>
+                    <li>נוחה לניהול</li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+
+    <main class="form-wrap">
+        <h2 class="form-title">ספרו לי יותר!</h2>
+
+        <form id="lead-form" class="lead-form">
+            <div class="row">
+                <div class="field">
+                    <input id="fullName" name="fullName" type="text" placeholder="שם מלא (חובה)">
+                </div>
+                <div class="field">
+                    <input id="email" name="email" type="email" placeholder="דואר אלקטרוני (חובה)">
+                </div>
+            </div>
+
+            <div class="field">
+                <textarea id="message" name="message" rows="5" placeholder="איך אפשר לעזור?"></textarea>
+            </div>
+
+            <div id="form-status" class="form-status" aria-live="polite"></div>
+
+            <button type="submit" class="btn">שליחה</button>
+        </form>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+</html>
